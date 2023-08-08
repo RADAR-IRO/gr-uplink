@@ -7,5 +7,6 @@
 #
 
 install(FILES
-    DESTINATION share/gnuradio/grc/blocks
+    uplink_space_packet_encoder.block.yml
+    uplink_ax25_framer.block.yml DESTINATION share/gnuradio/grc/blocks
 )

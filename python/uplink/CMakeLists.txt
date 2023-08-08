@@ -22,7 +22,8 @@ add_subdirectory(bindings)
 GR_PYTHON_INSTALL(
     FILES
     __init__.py
-    DESTINATION ${GR_PYTHON_DIR}/gnuradio/uplink
+    space_packet_encoder.py
+    ax25_framer.py DESTINATION ${GR_PYTHON_DIR}/gnuradio/uplink
 )
 
 ########################################################################

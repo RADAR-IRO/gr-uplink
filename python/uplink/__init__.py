@@ -20,4 +20,6 @@ except ModuleNotFoundError:
     pass
 
 # import any pure python here
+from .space_packet_encoder import space_packet_encoder
+from .ax25_framer import ax25_framer
 #
